@@ -23,14 +23,25 @@
 
 <p>This simple fun game is sure to become your new obsession!</p>
 
-<div id="game-board" class="board clearfix"></div>
+<div id="scoreboard">
+	<h2 id="scorekeeper"></h2>
+</div>
 
+<div id="game-board" class="board clearfix"></div>
+<div><span><a id="linktogame">Game</a></span></div>
 <!--<div><a id="linktogame"></a>
 	<img src="images/back.png" alt="Queen of Diamonds">
 	<img src="images/back.png" alt="Queen of Hearts">
 	<img src="images/back.png" alt="King of Diamonds">
 	<img src="images/back.png" alt="King of Hearts">
 </div>-->
+
+<!-- Added onclick function call 
+getElementById("resetButton").onclick = function()(reset);
+onclick="reset()"
+--> 
+
+<button id="resetButton"  type="button">Keep Playing!</button>
 
 </main>
 <footer class="clearfix">

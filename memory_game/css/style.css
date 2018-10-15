@@ -92,3 +92,36 @@ footer {
 	color: #F15B31;
 	font-weight: 700;
 }
+
+#scoreboard {
+	border: 2px solid #F15B31;
+    margin-top: .5em;
+    text-align: center;
+    display: inline-block;
+}
+
+#scorekeeper {
+	font-family: Raleway, sans-serif;
+	color: #F15B31;
+	padding: 0 30px; 
+}
+
+button {
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+    background-color: #F15B31; 
+    color: white;
+    padding: 15px 25px;
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid #F15B31;
+}
+
+button:hover {
+	border: 2px solid #F15B31;
+	background-color: white;
+	color: #F15B31;
+}
